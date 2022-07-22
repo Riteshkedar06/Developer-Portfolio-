@@ -1,0 +1,122 @@
+body{
+  line-height: 1.5;
+  color: white;
+  font-family: Inter, sans-serif;
+
+}
+nav .navbar {
+  padding: 2% 3%;
+}
+.collapse{
+  margin: auto;
+}
+.navbar h1{
+  font-size: 2rem;
+  font-family: "Prata", serif;
+  color: white;
+  margin-right: 20%;
+  margin-bottom: 0%;
+}
+.navbar-nav{
+  margin-right:40% ;
+}
+li .nav-link:hover{
+  color: #f6d82f;
+  transition: all 0.25s ease-in-out;
+}
+nav a{
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+}
+.colored-section,.info,.companies,.container-site,.about{
+  background-color: Black;
+  color:#e1f1ff;
+  
+}
+
+div.container-fluid,.info{
+  padding: 2% 5%;
+}
+.button{
+  display: block;
+  background-color: #f6d82f;
+  color: black;
+  font-family: "Prata", serif;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.info h1{
+  width: 50%;
+  line-height: 1.5;
+  font-family: "Prata", serif;
+  font-weight: 500; 
+  font-size: 4rem;
+  color: white;
+}
+.info p{
+  font-family: Inter, sans-serif;
+  width: 30%;
+  color: #ffffff8C;
+}
+.companies{
+  padding: 2% 4% 5% ;
+  
+}
+.container-site{
+  padding:2% 5%;
+  padding-bottom: 10px;
+}
+p{
+  font-family: Inter, sans-serif;
+  color: #ffffff8C;
+}
+h3{
+  font-family: Inter, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+.container-awards{
+  background-color: #2a2d3a;
+  padding: 5% 5%;
+  line-height: 1;
+  
+}
+.container-awards h2,.about h2{
+  font-family: "Prata", serif;
+  font-weight: 500;
+  color: white;
+  font-size: 2rem;
+}
+.container-awards p,.about p{
+  font-family: Inter, sans-serif;
+  margin: 20px 0px;
+  padding: 2% 0;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+.about{
+  padding: 2% 5%;
+}
+.about h2,.about p{
+  width: 50%;
+}
+.end{
+  background-color: #2a2d3a;
+  color: white;
+  padding: 1% 5%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 1px;
+}
+.end h2{
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.end div img{
+  padding: 2px;
+}
